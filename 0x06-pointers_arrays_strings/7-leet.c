@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * leet - encodes a string into 1337
  * @s: input string.
@@ -23,7 +22,8 @@ char *leet(char *s)
 				break;
 			}
 		}
-		count++;
+	count++;
 	}
+
 	return (s);
 }
