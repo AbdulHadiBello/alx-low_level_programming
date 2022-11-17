@@ -1,1 +1,2 @@
-static lib readme
+# Static Libraries in C programming
+
