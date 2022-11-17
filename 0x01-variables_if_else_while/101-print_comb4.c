@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- *main-program entry point.
- *Return:0 if no error, non-zero value if error.
- **/
+ * main-progrtam entry point
+ * Return:0 success, non zero fail
+ */
 int main(void)
 {
-	int m,i,j;
+	int m, i, j;
 
 	for (i = '0'; i <= '9'; i++)
 	{
@@ -18,19 +18,20 @@ int main(void)
 					putchar(i);
 					putchar(j);
 					putchar(m);
-					if (i == '7' && j == '8' && m = '9')
+					if (i == '7' && j == '8' && m == '9')
 					{
 						break;
 					}
 					else
 					{
-						putchar(';);
-						putchar('');
+						putchar(',');
+						putchar(' ');
 					}
 				}
 			}
 		}
 	}
-	putchar('\n');
-	return (0);
+	putchar ('\n');
+				return (0);
 }
+
